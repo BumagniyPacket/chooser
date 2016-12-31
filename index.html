@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Randomizer</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div>
+
+			<h3 class="center teal-text text-lighten-1">Enter the options and let me choose for you!</h3>
+
+			<form>
+				<div class="row" id='inputs'>
+					<input type="text" name='item1' class='col offset-s1 s10 offset-l3 l6'>
+				</div>
+			</form>
+
+			<div class="row">
+				<a class="col offset-s1 s10 offset-l3 l6 waves-effect waves-light btn" href="#" id='addButton'>
+					<i class="material-icons left">add</i>
+					Add
+				</a>
+				<a class="col offset-s1 s10 offset-l3 l6 waves-effect waves-light btn" href="#modal1" id="randomizeButton">
+					<i class="material-icons left">shuffle</i>
+					Randomize
+				</a>
+				<a class="col offset-s1 s10 offset-l3 l6 waves-effect waves-light btn" href="#" id='removeButton'>
+					<i class="material-icons left">warning</i>
+					Remove all
+				</a>
+			</div>
+
+		</div>
+
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<h4>Answer:</h4>
+				<p id="answer"></p>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+		<script type="text/javascript" src='js/main.js'></script>
+	</body>
+</html>
