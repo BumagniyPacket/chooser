@@ -22,7 +22,7 @@ $('#addButton').click(function(){
 		$('<input>').attr({
 		    type: 'text',
 		    name: 'item' + nums,
-		    class: 'col offset-s1 s10 offset-m3 m6'
+		    class: 'col offset-s1 s10 offset-l3 l6'
 		}).appendTo('#inputs').focus();
 	} else {
 		Materialize.toast('Add value!', 4000);
