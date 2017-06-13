@@ -1,0 +1,2 @@
+# chooser
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/39c9262f7eb241ca8dd93061819b2bfb)](https://www.codacy.com/app/bumagniypacket/chooser?utm_source=github.com&utm_medium=referral&utm_content=BumagniyPacket/chooser&utm_campaign=badger)
